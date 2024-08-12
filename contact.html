@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <title itemprop="name">Contact Us</title>
+</head>
+
+<body class="bg-image">
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- header -->
+    <header class="purpleHeader" itemscope itemtype="http://schema.org/WPHeader" role="banner">
+        <nav class="container d-flex flex-row navbar navbar-expand-lg" role="navigation">
+            <!-- image -->
+            <div class="col-lg-4 col-xl-4 col-xxl-6">
+                <a href="index.html" class="navbar-brand">
+                    <img src="images/logo.png" alt="Parnia Designs Logo" class="headerLogo">
+                </a>
+            </div>
+
+            <!-- hamburgerMenu -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- nav -->
+            <div class="collapse navbar-collapse col-lg-8 col-xl-8 col-xxl-6 justify-content-end"
+                id="navbarSupportedContent">
+
+                <!-- navItems -->
+                <ul class="navbar-nav me-5 ">
+                    <!-- itemOne -->
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link textColor1">
+                            Home
+                        </a>
+                    </li>
+                    <!-- itemTwo -->
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link textColor1">
+                            About Us
+                        </a>
+                    </li>
+                    <!-- itemThree -->
+                    <li class="nav-item">
+                        <a href="#" class="nav-link textColor1">
+                            Services
+                        </a>
+                    </li>
+                    <!-- itemFour -->
+                    <li class="nav-item">
+                        <a href="#" class="nav-link textColor1">
+                            Portfolio
+                        </a>
+                    </li>
+                    <!-- itemFive -->
+                    <li class="nav-item">
+                        <a href="#" class="nav-link textColor1">
+                            Blog
+                        </a>
+                    </li>
+                    <!-- itemSix -->
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link textColor1 navColor1">
+                            Contact Us
+                        </a>
+                    </li>
+                    <!-- itemSeven -->
+                    <li class="nav-item">
+                        <a href="#" class="nav-link textColor1">
+                            Testimonials
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main id="main-content" class="p-desktop" itemscope itemtype="http://schema.org/WebPageElement" role="main">
+        <div class="container mt-5 border rounded-3 bg-contact">
+            <h2 class="text-primary archivo-black-regular" itemprop="headline">Let's get in touch</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="inputName" class="form-text-color">Name</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPhone" class="form-text-color">Phone</label>
+                        <input type="tel" class="form-control" id="inputPhone" placeholder="Phone" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail" class="form-text-color">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="inputMessage" class="form-text-color">Message</label>
+                    <textarea class="form-control" id="inputMessage" rows="5" placeholder="Your message..."
+                        required></textarea>
+                </div>
+                <button type="submit" class="btn btn-radius btn-color m-3 btn-shadow" data-bs-toggle="modal" data-bs-target="#staticBackdrop">SEND EMAIL</button>
+                <!-- Modal -->
+<div class="modal fade bg-faded" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content bg-contact">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Thank You!</h5>
+          <button type="button" class="btn-close btn-radius btn-color m-3 btn-shadow" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Your message has been sent successfully!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-radius btn-color m-3 btn-shadow" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-radius btn-color m-3 btn-shadow">Back to the page</button>
+        </div>
+      </div>
+    </div>
+  </div>
+            </form>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="purpleHeader footer-border" itemscope itemtype="http://schema.org/WPFooter" role="contentinfo">
+        <p class="textColor1 text-center">
+            &copy; 2024 - Parnia Designs, Inc. All rights reserved.
+        </p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/281f25698a.js" crossorigin="anonymous"></script>
+    <script src="assets/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/react.js"></script>
+    <script src="assets/react-dom.js"></script>
+    <script src="assets/babel.js"></script>
+    <script src="assets/all.min.js"></script>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
