@@ -96,17 +96,21 @@
   margin: 10rem 25rem;
 }
 
+.bg-window{
+  background-color: black;
+}
+
 .btn-radius {
   border-radius: 1rem;
 }
 
 .btn-color {
-  background-color: rgb(90, 99, 156);
+  background-color: #8e4a8e;
   color: white;
 }
 
 .btn-shadow {
-  box-shadow: 0px 10px 24px 0px #888888;
+  box-shadow: 0px 6px 17px 0px #888888;
 }
 
 .p-desktop {
@@ -188,7 +192,6 @@
 
 .abotMargin-1 {
   margin-top: 2rem;
-  margin-left: 4rem;
 }
 
 .abotMargin-2 {
@@ -212,9 +215,12 @@
     font-size: 2px;
   }
   .mainImage{
-    background-image: url(/images/banner.png);
+    background-image: url(/images/bannerdesktop.png);
     background-size: cover;
     background-position: center center;
+  }
+  .bg-color{
+    background-color: #F5EDED;
   }
 
 }
@@ -230,18 +236,18 @@
     font-size: 2px;
   }
   .mainImage{
-    background-image: url(/images/banner.png);
+    background-image: url(/images/bannerdesktop.png);
     background-size: cover;
     background-position: center center;
+  }
+  .bg-color{
+    background-color: #F5EDED;
   }
 
 }
 
 /* For 425px */
 @media screen and (max-width: 425px) {
-  .unsetMargin {
-    margin: unset;
-  }
 
   .fontResize-1 {
     font-size: 15px;
@@ -251,9 +257,12 @@
     font-size: 8px;
   }
   .mainImage{
-    background-image: url(/images/banner.png);
+    background-image: url(/images/bannerdesktop.png);
     background-size: cover;
     background-position: center center;
+  }
+  .bg-color{
+    background-color: #F5EDED;
   }
 
 
@@ -285,9 +294,12 @@
     margin-right: 1rem;
   }
   .mainImage{
-    background-image: url(/images/banner.png);
+    background-image: url(/images/bannerdesktop.png);
     background-size: cover;
     background-position: center center;
+  }
+  .bg-color{
+    background-color: #F5EDED;
   }
 
 
