@@ -264,7 +264,9 @@
   .bg-color{
     background-color: #F5EDED;
   }
-
+  .unsetMargin {
+    margin: unset;
+  }
 
 }
 
