@@ -21,7 +21,7 @@ Throughout this project, I gained proficiency in using the Bootstrap framework, 
 ## Stock images:
 - [Contact](https://www.pexels.com/photo/woman-sitting-on-white-sofa-2411759/)
 - [Our Values](https://www.pexels.com/photo/coffee-and-a-bunch-of-tulips-15918322/)
-- [Our Visions](mhttps://www.pexels.com/photo/hands-coffee-hand-laptop-4046148/)
+- [Our Visions](https://www.pexels.com/photo/hands-coffee-hand-laptop-4046148/)
 
 
 
