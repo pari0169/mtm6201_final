@@ -55,9 +55,7 @@
   justify-content: center;
 }
 
-.pt-7{
-  margin-top: -26rem;
-}
+
 
 /* Main */
 .mainImage {
@@ -333,9 +331,6 @@
   .p-desktop {
     padding: 5rem 12rem 8rem 12rem;
 
-  }
-  .pt-7{
-    margin-top: -23rem;
   }
 }
 
