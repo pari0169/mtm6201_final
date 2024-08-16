@@ -14,14 +14,14 @@ Throughout this project, I gained proficiency in using the Bootstrap framework, 
 
 - [Bootstrap](https://getbootstrap.com/)
 - [jQuery](https://jquery.com/)
-- [Animate.css] (https://animate.style/)
-- [FontAwesome] (https://fontawesome.com/)
-- [Google Fonts] (https://fonts.google.com/)
+- [Animate.css](https://animate.style/)
+- [FontAwesome](https://fontawesome.com/)
+- [Google Fonts](https://fonts.google.com/)
 - [JavaScript]
 ## Stock images:
-- (https://www.pexels.com/photo/woman-sitting-on-white-sofa-2411759/)
-- (https://www.pexels.com/photo/coffee-and-a-bunch-of-tulips-15918322/)
-- (https://www.pexels.com/photo/hands-coffee-hand-laptop-4046148/)
+- [Contact](https://www.pexels.com/photo/woman-sitting-on-white-sofa-2411759/)
+- [Our Values](https://www.pexels.com/photo/coffee-and-a-bunch-of-tulips-15918322/)
+- [Our Visions](mhttps://www.pexels.com/photo/hands-coffee-hand-laptop-4046148/)
 
 
 
